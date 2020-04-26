@@ -1,0 +1,48 @@
+# Xcode
+#
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+*.orig
+*.generated.swift
+
+# CocoaPods
+#
+# We recommend against adding the Pods directory to your .gitignore. However
+# you should judge for yourself, the pros and cons are mentioned at:
+# http://guides.cocoapods.org/using/using-cocoapods.html#should-i-check-the-pods-directory-into-source-control
+#
+Pods/
+
+# Fastlane
+fastlane/report.xml
+
+# Misc
+.DS_store
+
+# Build Credentials
+production.vars
+
+# CircleCI
+.Python
+.idea/
+
+*.orig
+
+#Enviroment vars
+Scripts/setupEnvVars.sh
+RadioX/container/GTM-5753KGV.json
+RadioX/container/GTM-WTGH4DN.json
